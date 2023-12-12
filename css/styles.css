@@ -65,7 +65,7 @@ body {
 }
 
 .credits a {
-    color: #81a194;
+    color: #61a68c;
     text-decoration: none;
 }
 
@@ -109,6 +109,7 @@ body {
     font-size: 1.5rem;
     margin-bottom: 1.2rem;
     padding-left: 3rem;
+    color: #1119;
 }
 
 .inputs-container {
@@ -190,6 +191,10 @@ body {
     background: #3b8f78;
 }
 
+.error {
+    border: 1px solid #f00;
+}
+
 @media (max-width: 768px) {
 
     .intro {
@@ -233,5 +238,11 @@ body {
     #submit__btn {
         width: 40%;
     }
+}
+
+.error-text {
+    color: #f00;
+    margin: .3rem 0;
+    font-size: .9rem;
 }
 
